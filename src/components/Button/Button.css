@@ -1,0 +1,26 @@
+.button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+.button.primary {
+    background-color: #ff0000; /* 파란색에서 빨간색으로 변경 */
+    color: white;
+}
+
+.button.primary:hover {
+    background-color: #2563eb;
+}
+
+.button.secondary {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.button.secondary:hover {
+    background-color: #d1d5db;
+}
